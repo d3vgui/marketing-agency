@@ -9,6 +9,10 @@
 
 body{
   background-color: black;
+  background-image: url(image/background-main.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: var(--white);
 }
 
@@ -66,13 +70,14 @@ body{
 
 main{
   min-width: 100vh;
-  min-height: 100vh;
+  min-height: 92vh;
 }
 
 .titles-home{
   display: flex;
   flex-direction: column;
   margin-left: 175px;
+  /* padding: 0px 10%; */
   gap: 20px;
 }
 
@@ -89,6 +94,7 @@ main{
 
 .primary-title{
   font-size: 64px;
+  font-weight: bold;
 }
 
 .cards{
@@ -98,11 +104,12 @@ main{
   align-items: center;
   flex-wrap: wrap;
   margin-top: 145px;
+  margin-bottom: 70px;
 }
 
 .card-home{
-  width: 294px;
-  height: 240px;
+  width: 300px;
+  height: 250px;
   background-color: var(--background-card);
   border-radius: 10px;
   cursor: pointer;
@@ -137,4 +144,10 @@ main{
   font-size: 13px;
   font-weight: lighter;
   margin-top: 20px;
+}
+
+.teste{
+  background-color: black;
+  min-height: 100vh;
+  min-width: 100vh;
 }
