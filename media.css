@@ -1,4 +1,4 @@
-@media (max-width: 1024px){
+@media (max-width: 1109px){
 
   .titles-home{
     text-align: center;
@@ -11,8 +11,8 @@
   
   .menu{
     display: block;
-    /* margin-right: 5%; */
-
+    position: fixed;
+    margin-left: 90%;
   }
 
   .menu.ativo .bar:nth-child(1){
@@ -30,10 +30,11 @@
   .nav-menu{
     position: fixed;
     right: -100%;
-    top: 70px;
+    top: 0px;
     width: 40%;
     height: 100%;
     flex-direction: column;
+    justify-content: center;
     background-color: var(--background-sidebar);
     gap: -10px;
     transition: 0.4s;
@@ -44,7 +45,7 @@
   }
   
   .nav-item{
-    margin: 16px 0px;
+    margin: 0px 0px;
   }
 
   .cards{
@@ -61,6 +62,8 @@
   .logo{
     display: inline-block;
     align-items: center;
+    width: 180px;
+    height: 50px;
   }
 
   .icon{
@@ -70,20 +73,71 @@
 
   .title-card{
     font-size: 30px;
+    text-align: center;
   }
 
   .line-card{
+    margin: 20px auto;
     width: 110px;
   }
 
   .paragraph-card{
     font-size: 20px;
     margin-top: 40px;
+    text-align: center;
   }
 
   .primary-title{
     font-size: 45px;
   }
 
+  .paragraph{
+    text-align: center;
+  }
+
+  .title-services{
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+
+  .paragraph-services{
+    text-align: center;
+    margin: 123px auto 10px;
+    font-size: 50px;
+  }
+
+  .line-card-services{
+    margin: 0px auto 10px auto;
+    width: 100px;
+  }
+
+  .subtitle-services{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .cards-section-services{
+    display: flex;
+    justify-content: center;
+  }
+  .cards-services{
+    margin: 0;
+  }
+
+  .title-card-services{
+    text-align: center;
+  }
+
+  .description-services{
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px){
+  .menu{
+    position: fixed;
+    margin-left: 87%;
+  }
 }
 
