@@ -104,7 +104,7 @@ main{
   align-items: center;
   flex-wrap: wrap;
   margin-top: 145px;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
 }
 
 .card-home{
@@ -147,8 +147,8 @@ main{
 }
 
 .services{
-  background-color: black;
-  min-height: 110vh;
+  background-color: var(--background-black);
+  min-height: 100vh;
   min-width: 100vh;
 }
 
@@ -186,7 +186,7 @@ main{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 40px;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
   flex-direction: row;
   flex-wrap: wrap;
   /* justify-content: center; */
@@ -226,8 +226,14 @@ main{
 }
 
 .line-height{
-  margin: auto auto 100px auto;
+  margin: auto auto 50px auto;
   height: 85px;
   width: 2px;
   background-color: var(--red);
+}
+
+.works{
+  min-height: 100vh;
+  min-width: 100vh;
+  background-color: var(--background);
 }
