@@ -1,4 +1,4 @@
-@media (max-width: 1109px){
+@media (max-width: 1170px){
 
   .titles-home{
     text-align: center;
@@ -131,6 +131,32 @@
 
   .description-services{
     text-align: center;
+  }
+
+  .cards-works{
+    grid-template-columns: repeat(
+      auto-fill, 519px
+    );
+  }
+
+  .title-card-work{
+    text-align: center;
+  }
+
+  .type-work{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .description-card-works{
+    text-align: center;
+  }
+
+  .line-card-work{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
   }
 }
 
