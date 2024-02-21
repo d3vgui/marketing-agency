@@ -147,7 +147,7 @@ main{
 
 .services{
   background-color: var(--background-black);
-  min-height: 110vh;
+  min-height: 100vh;
   min-width: 100vh;
 }
 
@@ -185,7 +185,6 @@ main{
   display: grid;
   grid-template-columns: repeat(3, 350px);
   margin-top: 40px;
-  margin-bottom: 100px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -225,7 +224,7 @@ main{
 }
 
 .line-center{
-  padding: 10px 0;
+  padding: 50px 0;
   display: flex;
   width: 100%;
   justify-content: center;
