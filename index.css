@@ -351,3 +351,9 @@ main{
   margin-right: auto;
 }
 
+.about{
+  min-height: 100vh;
+  min-width: 100vh;
+  background-color: var(--background-black);
+}
+
