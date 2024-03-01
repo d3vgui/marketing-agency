@@ -6,17 +6,18 @@
   }
   
   .navigation{
-    padding: 18px 20px;
+    padding: 1.125rem 1.25rem;
   }
   
   .menu{
     display: block;
     position: fixed;
     margin-left: 90%;
+    z-index: 2;
   }
 
   .menu.ativo .bar:nth-child(1){
-      transform: translateY(8px) rotate(45deg);
+      transform: translateY(0.5rem) rotate(45deg);
   }
 
   .menu.ativo .bar:nth-child(2){
@@ -24,19 +25,20 @@
   }
 
   .menu.ativo .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-0.5rem) rotate(-45deg);
   }
 
   .nav-menu{
     position: fixed;
+    z-index: 2;
     right: -100%;
-    top: 0px;
+    top: 0rem;
     width: 40%;
     height: 100%;
     flex-direction: column;
     justify-content: center;
     background-color: var(--background-sidebar);
-    gap: -10px;
+    gap: -0.625rem;
     transition: 0.4s;
   }
 
@@ -45,50 +47,50 @@
   }
   
   .nav-item{
-    margin: 0px 0px;
+    margin: 0rem 0rem;
   }
 
   .cards{
     flex-direction: column;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
   }
 
   .card-home{
-    width: 400px;
-    height: 350px;
+    width: 25rem;
+    height: 21.875rem;
   }
 
   .logo{
     display: inline-block;
     align-items: center;
-    width: 180px;
-    height: 50px;
+    width: 11.25rem;
+    height: 3.125rem;
   }
 
   .icon{
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
   }
 
   .title-card{
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
   }
 
   .line-card{
-    margin: 20px auto;
-    width: 110px;
+    margin: 1.25rem auto;
+    width: 6.875rem;
   }
 
   .paragraph-card{
-    font-size: 20px;
-    margin-top: 40px;
+    font-size: 1.25rem;
+    margin-top: 2.5rem;
     text-align: center;
   }
 
   .primary-title{
-    font-size: 45px;
+    font-size: 2.8125rem;
   }
 
   .paragraph{
@@ -102,17 +104,17 @@
 
   .paragraph-services{
     text-align: center;
-    margin: 123px auto 10px;
-    font-size: 50px;
+    margin: 7.6875rem auto 0.625rem;
+    font-size: 3.125rem;
   }
 
   .line-card-services{
-    margin: 0px auto 10px auto;
-    width: 100px;
+    margin: 0rem auto 0.625rem auto;
+    width: 6.25rem;
   }
 
   .subtitle-services{
-    font-size: 17px;
+    font-size: 1.0625rem;
     text-align: center;
     margin-left: 0;
   }
@@ -135,7 +137,7 @@
 
   .cards-works{
     grid-template-columns: repeat(
-      auto-fill, 519px
+      auto-fill, 32.4375rem
     );
   }
 
@@ -144,7 +146,7 @@
   }
 
   .type-work{
-    margin-top: 10px;
+    margin-top: 0.625rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -156,7 +158,183 @@
   .line-card-work{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 0.625rem;
+  }
+
+  .personalized-team{
+    gap: 60px;
+  }
+
+  .description-focus{
+    width: 350px;
+  }
+
+  .focus-on-results{
+    gap: 60px;
+  }
+
+  .strategic-solutions{
+    gap: 60px;
+  }
+
+  .description-solutions{
+    width: 350px;
+  }
+
+  .cards-section-testimonials{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-testimonial{
+    width: 550px;
+    height: 360px;
+  }
+
+  .paragraph-card-testimonials{
+    margin-top: 50px;
+    font-size: 19px;
+  }
+
+  .img-star{
+    margin-top: 35px;
+    width: 170px;
+    height: 20px;
+  }
+
+  .title-contact{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .description-contact{
+    font-size: 21px;
+  }
+
+  .footer-content{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  
+
+}
+
+@media (max-width: 1100px){
+  .personalized-team{
+    gap: 50px;
+  }
+
+  .img-team{
+    width: 195px;
+    height: 250px;
+  }
+
+  .title-personalized-team{
+    font-size: 18px;
+  }
+
+  .description-team{
+    font-size: 15px;
+    width: 279px;
+    margin-top: 30px;
+  }
+
+  .arrow{
+    width: 32px;
+    height: 33px;
+    margin-top: 20px;
+  }
+
+  .description-focus{
+    font-size: 15px;
+    width: 279px;
+    margin-top: 30px;
+  }
+
+  .arrow-focus{
+    width: 32px;
+    height: 33px;
+    margin-top: 20px;
+  }
+
+  .focus-on-results{
+    gap: 60px;
+  }
+
+  .title-focus-on-results{
+    font-size: 18px;
+  }
+
+  .strategic-solutions{
+    gap: 50px;
+  }
+
+  .title-strategic-solutions{
+    font-size: 18px;
+  }
+
+  .description-solutions{
+    font-size: 15px;
+    width: 279px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 715px){
+  .img-team{
+    width: 195px;
+    height: 250px;
+  }
+  .background-about{
+    padding: 70px;
+  }
+
+  .title-personalized-team{
+    font-size: 17px;
+  }
+
+  .line-description-team{
+    width: 70px;
+  }
+
+  .description-team{
+    font-size: 13px;
+    width: 250px;
+  }
+  .personalized-team{
+    gap: 20px;
+  }
+
+  .title-focus-on-results{
+    font-size: 17px;
+  }
+
+  .line-description-focus{
+    width: 70px;
+  }
+
+  .description-focus{
+    font-size: 13px;
+    width: 250px;
+  }
+
+  .focus-on-results{
+    gap: 20px;
+  }
+
+  .strategic-solutions{
+    gap: 20px;
+  }
+
+  .title-strategic-solutions{
+    font-size: 17px;
+  }
+
+  .description-solutions{
+    width: 230px;
+    font-size: 13px;
   }
 }
 
@@ -165,5 +343,47 @@
     position: fixed;
     margin-left: 87%;
   }
+
 }
+
+@media (max-width: 425px){
+  .img-team{
+    width: 150px;
+    height: 190px;
+  }
+
+  .title-personalized-team{
+    font-size: 16px;
+  }
+
+  .description-team{
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+  .title-focus-on-results{
+    font-size: 16px;
+  }
+
+  .description-focus{
+    font-size: 12px;
+    width: 225px;
+    margin-top: 15px;
+  }
+
+  .title-strategic-solutions{
+    font-size: 16px;
+  }
+
+  .description-solutions{
+    font-size: 12px;
+    width: 230px;
+    margin-top: 15px;
+  }
+  .background-about{
+    padding: 55px;
+  }
+}
+
+
 

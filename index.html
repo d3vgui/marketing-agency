@@ -7,10 +7,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="global.css">
   <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="reveal.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
   <script src="index.js" defer></script>
+  <script src="reveal.js" defer></script>
+  <link rel="icon" href="/favicon-pequeno.ico">
   <title>NoEXCUSE</title>
 </head>
 <body>
@@ -20,11 +24,11 @@
       <img src="image/logo noexcuse.PNG" alt="logo-noexcuse" class="logo">
 
       <ul class="nav-menu">
-        <li class="nav-item"><a href="#">Início</a></li>
+        <li class="nav-item"><a href="#section-home">Início</a></li>
         <li class="nav-item"><a href="#services">Serviços</a></li>
-        <li class="nav-item"><a href="#">Trabalhos</a></li>
-        <li class="nav-item"><a href="#">Sobre nós</a></li>
-        <li class="nav-item"><a href="#">Contato</a></li>
+        <li class="nav-item"><a href="#works">Trabalhos</a></li>
+        <li class="nav-item"><a href="#about">Sobre nós</a></li>
+        <li class="nav-item"><a href="#contact">Contato</a></li>
       </ul>
 
       <div class="menu">
@@ -37,16 +41,16 @@
 
   <main>
 
-    <section class="section-home">
+    <section class="section-home" id="section-home">
 
-      <div class="titles-home">
+      <div class="titles-home title-home-reveal">
 
         <div class="subtitle-home">
-          <p class="paragraph">MENTE CRIATIVA, TRABALHOS CRIATIVOS</p>
+          <p class="paragraph paragraph-reveal">MENTE CRIATIVA, TRABALHOS CRIATIVOS</p>
         </div>
   
         <div class="primary-title-home">
-          <p class="primary-title">
+          <p class="primary-title primary-title-reveal">
             Conectando marcas <br>
             ao futuro
         </p>
@@ -55,7 +59,7 @@
 
       <div class="cards">
 
-        <div class="card-home">
+        <div class="card-home card-home-effect1">
           <img src="image/plane.png" alt="plane" class="icon">
 
           <p class="title-card">Futuro</p>
@@ -65,7 +69,7 @@
           <p class="paragraph-card">Revolucionando o Marketing Digital com nossa criatividade ilimitada, estamos forjando um futuro digital inovador e promissor.</p>
         </div>
 
-        <div class="card-home">
+        <div class="card-home card-home-effect2">
           <img src="image/brain.png" alt="brain" class="icon">
 
           <p class="title-card">Ideias inovadoras</p>
@@ -75,7 +79,7 @@
           <p class="paragraph-card">Resultados excepcionais estão ao seu alcance. Permita-nos elevar sua marca com nossa paixão pelo extraordinário.</p>
         </div>
 
-        <div class="card-home">
+        <div class="card-home card-home-effect3">
           <img src="image/light-bulb.png" alt="light" class="icon">
 
           <p class="title-card">Soluções criativas</p>
@@ -92,18 +96,18 @@
 
   </main>
 
-  <section class="services">
+  <section class="services" id="services">
    
     <div class="title-services">
       <div class="line-card-services"></div>
-      <p class="paragraph-services" id="services">Serviços</p>
+      <p class="paragraph-services">Serviços</p>
     </div>
 
     <p class="subtitle-services">SERVIÇOS QUE OFERECEMOS AOS NOSSOS CLIENTES</p>
 
     <div class="cards-section-services">
 
-      <div class="cards-services">
+      <div class="cards-services card-social-reveal">
         <img src="image/social media.png" alt="social media" class="icon">
 
         <p class="title-card-services">Social Media</p>
@@ -111,7 +115,7 @@
         <p class="description-services">Potencializamos sua presença online. Estratégias sociais, resultados reais.</p>
       </div>
 
-      <div class="cards-services">
+      <div class="cards-services card-website-reveal">
 
         <img src="image/website.png" alt="website" class="icon">
 
@@ -120,7 +124,7 @@
         <p class="description-services">Destaque seu futuro. Sites institucionais que refletem sua marca.</p>
       </div>
 
-      <div class="cards-services">
+      <div class="cards-services card-shop-reveal">
         <img src="image/shop.png" alt="shop" class="icon">
 
         <p class="title-card-services">Loja Virtual</p>
@@ -128,7 +132,7 @@
         <p class="description-services">Impulsione suas vendas online. Criamos lojas virtuais que se destacam.</p>
       </div>
 
-      <div class="cards-services">
+      <div class="cards-services card-ads-reveal">
         <img src="image/ads.png" alt="google ads" class="icon">
 
         <p class="title-card-services">Google ADS</p>
@@ -137,7 +141,7 @@
           com Google Ads. Resultados comprovados.</p>
       </div>
 
-      <div class="cards-services">
+      <div class="cards-services card-consultancy-reveal">
         <img src="image/consultancy.png" alt="consultoria" class="icon">
 
         <p class="title-card-services">Consultoria</p>
@@ -145,7 +149,7 @@
         <p class="description-services">Transforme sua estratégia conosco. Consultoria em marketing eficaz.</p>
       </div>
 
-      <div class="cards-services">
+      <div class="cards-services card-digital-reveal">
         <img src="image/card.png" alt="cartão digital" class="icon">
 
         <p class="title-card-services">Cartão Digital</p>
@@ -163,9 +167,7 @@
     </div>
   </section>
 
-  <section class="works">
-
-
+  <section class="works" id="works">
 
     <div class="title-services">
       <div class="line-card-services"></div>
@@ -174,7 +176,7 @@
 
     <p class="subtitle-services">ALGUNS TRABALHOS QUE JÁ REALIZAMOS</p>
 
-    <div class="cards-works">
+    <div class="cards-works cards-works-reveal">
 
       <div class="border-card">
         <div class="bg-img-works">
@@ -241,22 +243,239 @@
 
     </div>
 
-    <a class="view-all-works" target="_blank" href="https://www.behance.net/noexcuse1"><button class="btn-works">VER MAIS</button></a>
+    <a class="view-all-works" target="_blank" href="https://www.behance.net/noexcuse1"><button class="btn-works btn-works-reveal">VER MAIS</button></a>
 
     <div class="line-center"><span class="line-height"></span></div>
 
   </section>
 
-  <section class="about">
+  <section class="about" id="about">
 
     <div class="title-services">
       <div class="line-card-services"></div>
       <p class="paragraph-services" id="services">Sobre nós</p>
     </div>
 
-    <p class="subtitle-services">SOMOS MAIS QUE UMA AGÊNCIA DIGITAL</p>
+    <p class="subtitle-services">SOMOS MAIS QUE UMA AGÊNCIA DE MARKETING</p>
+
+    <div class="background-about background-about-reveal">
+
+      <div class="personalized-team">
+
+        <img src="image/equipe-personalizada.png" alt="equipe personalizada" class="img-team">
+  
+        <div class="description-personalized-team">
+  
+          <p class="title-personalized-team">EQUIPE PERSONALIZADA</p>
+  
+          <div class="line-description-team"></div>
+  
+          <p class="description-team">Na NoEXCUSE, contamos com uma equipe apaixonada e altamente qualificada, pronta para impulsionar a sua marca para o sucesso online. Nossos especialistas em marketing digital são verdadeiros estrategistas, sempre atualizados com as últimas tendências e ferramentas do mercado.</p>
+  
+          <img src="image/seta.png" alt="" class="arrow">
+  
+        </div>
+  
+      </div>
+  
+      <div class="focus-on-results">
+  
+        <img src="image/foco-em-resultados.png" alt="foco em resultados" class="img-team">
+  
+        <div class="description-focus-on-results">
+  
+          <p class="title-focus-on-results">FOCO EM RESULTADO</p>
+          
+          <div class="line-description-focus"></div>
+    
+          <p class="description-focus">
+            Somos especializados em fornecer soluções focadas em resultados tangíveis para seus clientes. Nossa missão é impulsionar o crescimento e a rentabilidade dos negócios por meio de estratégias digitais inteligentes e orientadas para resultados mensuráveis.
+          </p>
+  
+          <img src="image/seta.png" alt="seta" class="arrow-focus">
+  
+        </div>
+  
+      </div>
+  
+      <div class="strategic-solutions">
+  
+        <img src="image/solucoes-estrategicas.png" alt="soluções estratégicas" class="img-team">
+  
+        <div class="description-strategic-solutions">
+  
+          <p class="title-strategic-solutions">SOLUÇÕES ESTRATÉGICAS</p>
+  
+          <div class="line-description-team"></div>
+  
+          <p class="description-solutions">
+            Somos uma agência de marketing digital dedicada a oferecer soluções estratégicas que impulsionam o crescimento e a relevância das marcas online. Nosso foco é fornecer estratégias personalizadas e inovadoras que atendam às necessidades específicas de cada cliente, garantindo resultados tangíveis e mensuráveis.
+          </p>
+  
+        </div>
+  
+      </div>
+
+    </div>
+
+    <div class="btn btn-about-reveal">
+      <a class="view-all-works" target="_blank" href="https://api.whatsapp.com/send?phone=5511987765710&text=Ol%25C3%25A1%2C%2520gostaria%2520de%2520saber%2520mais%2520sobre%2520os%2520servi%25C3%25A7os"><button class="btn-contact">FALE CONOSCO</button></a>
+    </div>
+
+    <div class="line-center"><span class="line-height"></span></div>
+
+  </section>
+
+  <section class="testimonials">
+
+    <div class="title-services">
+
+      <div class="line-card-services"></div>
+      <p class="paragraph-services" id="services">Depoimentos</p>
+
+    </div>
+
+    <p class="subtitle-services">ALGUNS DEPOIMENTOS DOS NOSSOS CLIENTES</p>
+
+    <div class="cards-section-testimonials">
+      <div class="card-testimonial card-testimonial1">
+        <img src="image/coment.png" alt="coment-icon" class="img-coment">
+
+        <div class="description-testimonial">
+
+          <p class="paragraph-card-testimonials">
+            "Não poderíamos estar mais felizes com a forma como a NoEXCUSE transformou nossa marca. Seu conhecimento e experiência realmente se destacam no setor."
+          </p>
+  
+          <img src="image/star.png" alt="" class="img-star">
+        </div>
+
+      </div>
+
+      <div class="card-testimonial card-testimonial2">
+
+        <img src="image/coment.png" alt="coment-icon" class="img-coment">
+
+        <div class="description-testimonial">
+
+          <p class="paragraph-card-testimonials">
+            "A NoEXCUSE não é apenas uma agência de marketing, eles são verdadeiros parceiros de negócios. Seu suporte contínuo e expertise nos ajudaram a alcançar um novo patamar de sucesso."
+          </p>
+  
+          <img src="image/star.png" alt="" class="img-star">
+        </div>
+        
+      </div>
+
+      <div class="card-testimonial card-testimonial3">
+        
+        <img src="image/coment.png" alt="coment-icon" class="img-coment">
+
+        <div class="description-testimonial">
+
+          <p class="paragraph-card-testimonials">
+            "Recomendo fortemente a NoEXCUSE a qualquer empresa que deseje se destacar no mercado. Sua abordagem orientada para resultados e sua atenção aos detalhes são incomparáveis."
+          </p>
+  
+          <img src="image/star.png" alt="" class="img-star">
+
+      </div>
+    </div>
+
+    <div class="line-center"><span class="line-height"></span></div>
+  </section>
+
+  <section class="contact" id="contact">
+
+    <div class="contact-us">
+
+          <p class="title-contact">E AÍ, VAMOS TRABALHAR JUNTOS?</p>
+  
+        <p class="description-contact">A equipe da NoEXCUSE se compromete oferecer soluções inovadoras e eficazes
+          para você alavancar o seu negócio de uma maneira <span>extraordinária</span>. <br><br>
+          O sucesso de uma empresa é o resultado da dedicação e comprometimento de uma
+          grande equipe.
+        </p>
+  
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=5511987765710&text=Ol%25C3%25A1%2C%2520gostaria%2520de%2520saber%2520mais%2520sobre%2520os%2520servi%25C3%25A7os" class="contact-link"><button class="contact-button contact-button-reveal">ENTRE EM CONTATO</button></a>
+
+      </div>
+
+      <div class="line-center"><span class="line-height"></span></div>
+
+    <footer>
+
+      <div class="footer-content">
+
+        <img src="image/logo noexcuse.PNG" alt="" class="logo-contact">
+
+        <div class="footer-contact">
+
+          <p class="title-contact-us">FALE CONOSCO</p>
+
+          <div class="phone-call-footer">
+
+            <img src="image/phone-call.png" alt="telefone" class="img-phone-contact">
+            
+            <p>+55 11 98776-5710</p>
+
+          </div>
+
+          <div class="email-footer">
+
+            <img src="image/mail.png" alt="email" class="img-phone-contact">
+
+            <p>noexcusegru@gmail.com</p>
+
+          </div>
+
+          <div class="local-footer">
+
+            <img src="image/place-localizer.png" alt="" class="img-phone-contact">
+
+            <p>Guarulhos, SP</p>
+
+          </div>
+
+          <div class="date-footer">
+
+            <img src="image/calendar.png" alt="" class="img-phone-contact">
+
+            <p>De segunda à sexta</p>
+
+          </div>
+
+        </div>
+
+        <div class="social-media-footer">
+
+          <p class="title-contact-us">REDES SOCIAIS</p>
+
+          <div class="social-instagram">
+
+            <img src="image/instagram.png" alt="" class="img-social">
+
+            <a href="https://www.instagram.com/noexcuse.gr?igsh=MWlzMmN5NjM5MjA4Mg==" target="_blank">@noexcuse.gr</a>
+
+          </div>
+
+          <div class="social-linkedin">
+
+            <img src="image/linkedin.png" alt="" class="img-social">
+
+            <a href="https://www.linkedin.com/company/noexcuse-guarulhos/" target="_blank">Entre no nosso perfil no LinkedIn</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
 
   </section>
 
 </body>
 </html>
+
+
