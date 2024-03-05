@@ -11,7 +11,7 @@ body{
   background-image: url(image/background-main.png);
   background-position: top;
   background-repeat: no-repeat;
-  /* background-color: var(--background); */
+  background-color: var(--background-black);
   color: var(--white);
 }
 
