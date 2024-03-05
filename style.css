@@ -70,7 +70,7 @@ body{
 }
 
 main{
-  min-width: 99vw;
+  min-width: 100vh;
   min-height: 92vh;
 }
 
@@ -150,7 +150,7 @@ main{
 .services{
   background-color: var(--background-black);
   min-height: 100vh;
-  min-width: 99vw;
+  min-width: 100vh;
 }
 
 .title-services{
@@ -247,7 +247,7 @@ main{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  min-width: 99vw;
+  min-width: 100vh;
   background-color: var(--background);
 }
 
@@ -358,7 +358,7 @@ main{
 
 .about{
   min-height: 100vh;
-  min-width: 99vw;
+  min-width: 100vh;
   background-color: var(--background-black);
 }
 
@@ -551,7 +551,7 @@ main{
 }
 
 .testimonials{
-  min-width: 99vw;
+  min-width: 100vh;
   min-height: 100vh;
   background-color: var(--background);
 }
@@ -604,7 +604,7 @@ main{
 
 .contact{
   min-height: 100vh;
-  min-width: 99vw;
+  min-width: 100vh;
   background-color: var(--background-black);
 }
 
