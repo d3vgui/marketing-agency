@@ -8,11 +8,10 @@
 }
 
 body{
-  /* background-image: url(image/background-main.png);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; */
-  background-color: var(--background);
+  background-image: url(image/background-main.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  /* background-color: var(--background); */
   color: var(--white);
 }
 
