@@ -11,22 +11,19 @@ revelar.reveal('.title-home-reveal',
 revelar.reveal('.card-home-effect1',
   {
     duration: 1000,
-    distance: '50px',
-    delay: 500
+    distance: '50px'
   })
 
 revelar.reveal('.card-home-effect2',
   {
     duration: 1000,
-    distance: '50px',
-    delay: 1000
+    distance: '50px'
   })
 
 revelar.reveal('.card-home-effect3',
   {
     duration: 1000,
-    distance: '50px',
-    delay: 1500
+    distance: '50px'
   })
 
 // ----------------------------------- FIM HOME SECTION ------------------------------------
@@ -47,50 +44,43 @@ revelar.reveal('.subtitle-services',
 
 revelar.reveal('.card-social-reveal',
   {
-    duration: 1000,
+    duration: 500,
     distance: '50px',
-    origin: 'right',
-    delay: 500
+    delay: 200
   })
 
 revelar.reveal('.card-website-reveal',
   {
-    duration: 1000,
+    duration: 500,
     distance: '50px',
-    origin: 'right',
-    delay: 1000
+    delay: 300
   })
 
 revelar.reveal('.card-shop-reveal',
   {
     duration: 500,
     distance: '50px',
-    origin: 'right',
-    delay: 1500
+    delay: 400
   })
 
 revelar.reveal('.card-ads-reveal',
   {
     duration: 500,
     distance: '50px',
-    origin: 'left',
-    delay: 500
+    delay: 200
   })
 
 revelar.reveal('.card-consultancy-reveal',
   {
     duration: 500,
-    distance: '50px',
-    origin: 'left',
-    delay: 1000
+    delay: 300
   })
 
 revelar.reveal('.card-digital-reveal',
   {
     duration: 500,
     distance: '50px',
-    origin: 'left',
-    delay: 1500
+    delay: 400
   })
 
 // ----------------------------------- FIM SERVICES SECTION ------------------------------------
@@ -106,10 +96,9 @@ revelar.reveal('.cards-works-reveal',
 
 revelar.reveal('.btn-works-reveal',
   {
-    duration: 1000,
-    distance: '50px',
-    delay: 500,
-    origin: 'left'
+    duration: 800,
+    distance: '90px',
+    delay: 50
   })
 
 // ----------------------------------- FIM WORK SECTION --------------------------------------------
@@ -124,32 +113,32 @@ revelar.reveal('.background-about-reveal',
 
 revelar.reveal('.personalized-team',
   {
-    duration: 1000,
-    distance: '50px',
-    delay: 300,
+    duration: 900,
+    distance: '10px',
+    delay: 200,
     origin: 'right'
   })
 
 revelar.reveal('.focus-on-results',
   {
     duration: 900,
-    distance: '50px',
-    delay: 500,
+    distance: '10px',
+    delay: 200,
     origin: 'left'
   })
 
 revelar.reveal('.strategic-solutions',
   {
     duration: 900,
-    distance: '50px',
-    delay: 700,
+    distance: '10px',
+    delay: 200,
     origin: 'right'
   })
 
 revelar.reveal('.btn-about-reveal',
   {
     duration: 1000,
-    distance: '50px',
+    distance: '10px',
     origin: 'left'
   })
 
@@ -160,14 +149,14 @@ revelar.reveal('.btn-about-reveal',
 revelar.reveal('.card-testimonial1',
   {
     duration: 1000,
-    distance: '50px',
+    distance: '10px',
     origin: 'right'
   })
 
 revelar.reveal('.card-testimonial2',
   {
     duration: 1000,
-    distance: '50px',
+    distance: '10px',
     origin: 'right',
     delay: 500
   })
@@ -175,7 +164,7 @@ revelar.reveal('.card-testimonial2',
 revelar.reveal('.card-testimonial3',
   {
     duration: 1000,
-    distance: '50px',
+    distance: '10px',
     origin: 'right',
     delay: 1000
   })
@@ -201,16 +190,9 @@ revelar.reveal('.contact-button-reveal',
   {
     duration: 1000,
     distance: '50px',
-    delay: 700,
+    delay: 500,
     origin: 'left'
 
-  })
-
-revelar.reveal('.footer-content',
-  {
-    duration: 1000,
-    distance: '50px',
-    origin: 'left'
   })
 
 

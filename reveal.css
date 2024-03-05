@@ -22,7 +22,6 @@
 .card-testimonial3,
 .title-contact,
 .description-contact,
-.contact-button-reveal,
-.footer-content{
+.contact-button-reveal{
   visibility: hidden;
 }
